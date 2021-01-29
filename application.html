@@ -34,12 +34,12 @@
 	
 		<ul class="header__list">
 
-            <li class="header__item"> <a href="/artists/" class="header__link {% if menu === 'otaboru' %}header__item--active{% endif %}">Artists</a></li>
-            <li class="header__item"><a href="/program/" class="header__link {% if menu === 'program' %}header__item--active{% endif %}" >Program</a></li>
-            <li class="header__item"><a href="/shows/" class="header__link {% if menu === 'galerie' %}header__item--active{% endif %}" >Shows</a></li>
-            <li class="header__item"><a href="/faq/" class="header__link {% if menu === 'postrehy' %}header__item--active{% endif %}" >FAQ</a></li>
-            <li class="header__item"><a href="/application/" role="button" class="header__button--primary button">Application</a></li>
-            </ul>
+    <li class="header__item"> <a href="/artists/" class="header__link">Artists</a></li>
+    <li class="header__item"><a href="/program/" class="header__link" >Program</a></li>
+    <li class="header__item"><a href="/shows/" class="header__link" >Shows</a></li>
+    <li class="header__item"><a href="/faq/" class="header__link " >FAQ</a></li>
+    <li class="header__item"><a href="/application/" role="button" class="header__button--primary button">Application</a></li>
+    </ul>
 
         </div>
     </nav>
@@ -51,11 +51,36 @@
 
 <main class="obal">
 
-    {{ content | safe }}
+ 
+
+
+    <div class="gradient">
+        <section class="row">
+            <div class="row__kontejner">
+              <h1 class="hero__h1">Application</h1>
+              <div class="ornament"> <img class="ornament" src="/soubor/ornamentdown.png" alt="Ornament">
+              </div>
+                <p class="row__perex"> 
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0StZ5_ILN8OGHKOkOloh3D2R_yoWYy2QRF1ktAmqtKrzkTQ/viewform?embedded=true" width="640" height="670" frameborder="0" marginheight="0" marginwidth="0">Načítání…</iframe>
+                </p></div>
+                
+        </section>
+
+
+
+ 
+
+</div>
+
+  
+ 
+
+
 
 
 </main>
 
+    
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 

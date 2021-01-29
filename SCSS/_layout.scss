@@ -1,39 +1,194 @@
 
 
-.obal {background: $seda;
+.obal {background: $svetla;
 
     
 }
 
-.main { 
+.main { background-color: $menu;
 
-
+&__headline {text-align: center;
+padding-top: 60px;}
 &__grid {display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 1100px;
     margin: auto;
     text-align: center;
-    text-transform: uppercase;}
+    
+    }
+    
+&__buttoneffect {
+    transform: scale(1);
+    transition: all 0.3s ease-in-out 0.2s;}
 
-&__item {padding: 30px;}
+&__buttoneffect:hover {    transform: scale(1.2);
+        transition: all 0.3s ease-in-out 0.1s;}
+
+&__item {padding: 30px;
+}
+
+&__fotka {max-width: 100%; padding-top: 30px;}
 
    
     @media screen and (max-width: 600px){
         &__grid {grid-template-columns: 1fr;
-        }
+        }}
         
-    }
-   
+    
+    &__buttonkolem {padding: 60px 15px;
+        text-align: center;}
+
 
 }
+
+
+.main2 { background-color: $svetla;
+
+    &__headline {text-align: center;
+    padding-top: 60px;}
+    &__grid {display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1400px;
+        margin: auto;
+        text-align: center;
+        
+        }
+        
+    &__buttoneffect {
+        transform: scale(1);
+        transition: all 0.3s ease-in-out 0.2s;}
     
-.row {
+    &__buttoneffect:hover {    transform: scale(1.2);
+            transition: all 0.3s ease-in-out 0.1s;}
+    
+    &__item {padding: 30px;}
+    
+    &__fotka {max-width: 100%; padding-top: 30px;}
+    
+       
+        @media screen and (max-width: 600px){
+            &__grid {grid-template-columns: 1fr;
+            }}
+            
+        
+        &__buttonkolem {padding: 60px 15px;
+            text-align: center;}
+    
+       
+    }
+
+
+
+
+    .main3 { background-color: $svetla;
+
+        &__headline {text-align: center;
+        padding-top: 60px;}
+        &__grid {display: grid;
+            grid-template-columns: 1fr 2fr;
+            max-width: 1400px;
+            margin: auto;
+            text-align: left;
+            
+            }
+            
+        &__buttoneffect {
+            transform: scale(1);
+            transition: all 0.3s ease-in-out 0.2s;}
+        
+        &__buttoneffect:hover {    transform: scale(1.2);
+                transition: all 0.3s ease-in-out 0.1s;}
+        
+        ul.main3__list {
+                    list-style-type: circle;
+                  }
+        &__item {padding: 30px;}
+        
+        &__fotka {max-width: 100%;}
+
+        &__dashed {height: 2px; width: 50px; 
+            border: 1px solid $zelena;
+            margin-left: 0px;
+                        
+        }
+
+        &__link {text-decoration: none; color: $zelena;}
+        &__link:hover {color: $menu; font-weight: 900;}
+        
+           
+            @media screen and (max-width: 600px){
+                &__grid {grid-template-columns: 1fr;
+                }}
+                
+            
+            &__buttonkolem {padding: 60px 15px;
+                text-align: center;}
+        
+           
+        }
+
+
+
+
+        .main4 { background-color: $svetla; 
+
+            &__headline {text-align: center;
+            padding-top: 60px;}
+            &__grid {display: grid;
+                grid-template-columns: 1fr 2fr;
+                max-width: 1100px;
+                margin: auto;
+                text-align: left;
+                
+                }
+                
+            &__buttoneffect {
+                transform: scale(1);
+                transition: all 0.3s ease-in-out 0.2s;}
+            
+            &__buttoneffect:hover {    transform: scale(1.2);
+                    transition: all 0.3s ease-in-out 0.1s;}
+            
+            ul.main3__list {
+                        list-style-type: circle;
+                      }
+            &__item {padding: 30px;}
+            
+            &__fotka {max-width: 100%;}
+
+            
+    
+            &__dashed {height: 2px; width: 50px; 
+                border: 1px solid $zelena;
+                margin-left: 0px;
+                            
+            }
+    
+            &__link {text-decoration: none; color: $zelena;}
+            &__link:hover {color: $menu; font-weight: 900;}
+            
+               
+                @media screen and (max-width: 600px){
+                    &__grid {grid-template-columns: 1fr;
+                    }}
+                    
+                
+                &__buttonkolem {padding: 60px 15px;
+                    text-align: center;}
+            
+               
+            }
+    
+.row { display: flex; justify-content: center;
     
 &__kontejner {padding: 30px 0px;
-    max-width: 1100px;
+    max-width: 900px;
     margin: auto;
     text-align: center;
+    
     }
+
+    &__h4 {padding-top: 60px;}
 
     @media screen and (max-width: 600px)
     {
@@ -43,36 +198,68 @@
     @media screen and (min-width:601px) and (max-width: 1000px) {
         &__perex {padding: 0px 30px;}
     }
+
+    &__h2 {max-width: 800px; margin: auto; padding-top: 30px;}
+
+    &__ornament {max-width: 200px; padding: 30px 0px 50px 0px;}
+
+    &__video {padding-top: 50px;}
+
 }
     
-.maindva {background-color: $khaki; padding: 70px 0px; 
+.maindva {background-color: $svetla;  
     
-    &__border {border-color:$bezova;
-        border-radius: 30px;
-        border-style: solid;
-        border-width: 1px;
-        max-width: 1100px;
+    &__border {
+        max-width: 900px;
         margin: auto;}
 
 
-    &__buttonkolem {padding: 30px 15px;
+    &__buttonkolem {padding: 70px 15px;
     text-align: center;}
+
+    &__table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+       
+      &__buttonkolem {
+        transform: scale(1);
+        transition: all 0.3s ease-in-out 0.2s;}
+    
+    &__buttonkolem:hover {    transform: scale(1.2);
+            transition: all 0.3s ease-in-out 0.1s;}
+    
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #DBAE6B;
+      }
+
+    tr:hover {background-color: $menu;}
+
+    &__link  {text-decoration: none; color: white;}
+    &__link:hover {color: $zelena; font-weight: 400;}
+
 
     &__section {
         max-width: 1100px;
         margin: 20px;
-        text-align: left;
+        text-align: center;
         display: grid;
-        grid-template-columns: 50px 1fr 50px 1fr 50px 1fr;
-        grid-gap: 50px 15px;}
+        grid-template-columns: 300px 1fr 1fr 200px;
+        grid-gap: 20px 15px;}
     
-    &__item--number {font-size: 50px;
-    text-align: right;
+    &__item {border: 1px solid white;}
+    
+    &__number {font-size: 20px;
+    text-align: center;
     font-weight: bold;
     color: $bezova;}
 
     &__h2 {text-align: center;
-    padding-bottom: 30px;}
+    padding: 30px 0px;}
 
     &__blog {padding: 0px 30px;}
 
@@ -96,78 +283,11 @@
 
 }
 
-.video {max-width: 1100px;
-    margin: auto;
-    padding: 30px 0px 70px 0px;
-    
-    &__gridtreti {display: grid;
-        grid-template-columns: 1fr 1fr;
-    grid-gap: 50px}
-
-    &__h2 {padding-bottom: 60px;
-    text-align: center;}
-
-    &__perex {font-size: 30px;
-    font-style: italic;}
-
-    &__fb {border-radius: 30% 0;
-    max-width: 100%;}
-
-    &__obrys {
-        display: flex;}
-    
-    &__popis {margin: auto;
-        font-weight: lighter;
-        font-size: 12px; }
-    
-
-         @media screen and (max-width: 600px){
-                
-         &__gridtreti {
-         grid-template-columns: 1fr;
-        gap: 0px;} 
-
-        &__fb {max-width: 100%;
-        padding: 0px 30px;}
-
-        &__perex {padding: 0px 30px;
-        font-size: 30px;}
-
-        &__perex--autor {padding: 0px 30px;
-        font-size: 16px;}
-
-        &__obrys {
-            padding: 0px 30px;}
-        }
-            
-        @media screen and (min-width:601px) and (max-width: 1000px) {
-                
-            &__gridtreti {
-                grid-template-columns: 1fr;
-               gap: 0px;} 
-       
-               &__fb {max-width: 100%;
-               padding: 0px 30px;
-           }
-       
-               &__perex {padding: 0px 30px;
-               font-size: 30px;}
-       
-               &__perex--autor {padding: 0px 30px;
-               font-size: 16px;}
-       
-               &__obrys {
-                   padding: 0px 30px;}
-               
-        }
-    
-}
 
 
 
 
-
-.oblasti {background-color: $khaki; padding: 70px 0px;
+.oblasti {background-color: $svetla; padding: 70px 0px;
     
     &__border {border-color:$bezova;
         border-radius: 30px;
@@ -310,3 +430,40 @@
             }
 }
 
+
+.faq {max-width: 1100px
+    ; position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+height: 100%;
+padding-bottom: 50px;}
+
+.accordion {
+    background-color: $svetla;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .active, .accordion:hover {
+    background-color: $menu;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: $menu;
+    color: $zelena;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Roboto', sans-serif;
+  }

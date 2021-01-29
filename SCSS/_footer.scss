@@ -1,7 +1,7 @@
 
 .sponzori {
     padding: 30px 0px;
-    background-color: $khaki;
+    background-color: $zelena;
 
     &__row {padding-bottom: 30px;
         text-align: center;
@@ -9,17 +9,33 @@
         margin: auto;}
 
     &__grid {display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 80px;}
+    grid-template-columns: 1fr 1fr 1fr;    
+    max-width: 400px;
+    margin: auto;
+padding-top: 30px;}
 
-    &__logo {max-width: 100%; cursor: pointer;}
+
+
+
+}
+
+
+i.fab {color:white;
+    cursor: pointer;
+}
+
+i.fab:hover {color:$menu;
+    cursor: pointer;
+}
+
+    
 
     @media screen and (max-width: 600px){
         &__grid {padding: 0px 20px;
         grid-template-columns: 1fr;
         gap: 50px;}
 
-    &__logo {max-width: 70%;
+    &__logo {max-width: 64px;
     padding: 30px;}
     h2 {margin: 0px 15px;}
         }
@@ -36,6 +52,14 @@
         h2 {margin: 0px 15px;}
                
         }
-}
 
-.copyright {background-color: $khaki; padding: 10px 0px; text-align: center;}
+
+.copyright {background-color: $zelena; 
+    padding: 10px 0px; text-align: center;
+
+
+&__link {text-decoration: none; color: white;}
+&__link:hover {color: $menu; font-weight: 900;}
+
+
+}
