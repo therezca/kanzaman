@@ -38,12 +38,13 @@ left: -9999px;
 .header__button--primary {
     color: white;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fraunces', serif;
     text-align: right;
     padding: 15px;
     font-weight: bold;
     font-size: 15px;
     background: $menu;
+    border: 0px;
 }
 
 
@@ -56,7 +57,7 @@ outline: 0px;
 .header__kontejner {display: block; position: relative; background-color: $menu;
 }
 
-.button {border: 0px; background-color: transparent;}
+
 
 
 

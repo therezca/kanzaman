@@ -21,6 +21,12 @@ body {
   font-weight: 300;
 }
 
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+}
+
 h1 {
   font-size: 40px;
   font-family: 'Fraunces', serif;
@@ -42,6 +48,7 @@ h2 {
 @media screen and (max-width: 600px) {
   h2 {
     padding: 15px;
+    font-size: 26px;
   }
 }
 
@@ -531,11 +538,11 @@ h4 {
 }
 
 .row__h4 {
-  padding-top: 60px;
+  padding: 60px 30px 0px 30px;
 }
 
 .row__video {
-  max-width: 800%;
+  max-width: 80%;
 }
 
 @media screen and (max-width: 600px) {
@@ -581,7 +588,7 @@ h4 {
 
 .maindva__table {
   border-collapse: collapse;
-  width: 100%;
+  max-width: 100%;
 }
 
 .maindva__buttonkolem {
@@ -1038,12 +1045,13 @@ i.fab:hover {
 .header__button--primary {
   color: white;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fraunces', serif;
   text-align: right;
   padding: 15px;
   font-weight: bold;
   font-size: 15px;
   background: #291A21;
+  border: 0px;
 }
 
 .header__button--primary:hover {
@@ -1059,11 +1067,6 @@ i.fab:hover {
   display: block;
   position: relative;
   background-color: #291A21;
-}
-
-.button {
-  border: 0px;
-  background-color: transparent;
 }
 
 @media screen and (min-width: 800px) {

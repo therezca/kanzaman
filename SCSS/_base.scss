@@ -11,6 +11,10 @@ font-size: 16px;
 font-weight: 300;}
 
 
+@media screen and (max-width: 600px) 
+{
+    body {font-size: 18px;}}
+
 h1 {font-size: 40px; font-family: 'Fraunces', serif;
 color: $zelena;
 animation: fadeIn ease 3s;
@@ -23,7 +27,8 @@ color: $zelena;}
 
 @media screen and (max-width: 600px) {
 
-h2 {padding: 15px;}
+h2 {padding: 15px;
+font-size: 26px;}
     }
 
 h3 {font-size: 50px;
@@ -43,7 +48,8 @@ h3 {font-size: 50px;
 }
 
 h4 {font-size: 20px;
-color: $zelena; }
+color: $zelena; 
+}
 
 .ornament {max-width: 200px; 
     padding: 0px 0px 20px 0px; 

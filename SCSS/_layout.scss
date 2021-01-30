@@ -197,9 +197,9 @@ padding-top: 60px;}
     
     }
 
-    &__h4 {padding-top: 60px;}
+    &__h4 {padding: 60px 30px 0px 30px;}
 
-    &__video {max-width: 800%;}
+    &__video {max-width: 80%;}
 
     @media screen and (max-width: 600px)
     {
@@ -230,7 +230,7 @@ padding-top: 60px;}
 
     &__table {
         border-collapse: collapse;
-        width: 100%;
+        max-width: 100%;
       }
 
        
