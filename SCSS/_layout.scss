@@ -105,7 +105,7 @@ padding-top: 60px;}
         
         &__buttoneffect:hover {    transform: scale(1.2);
                 transition: all 0.3s ease-in-out 0.1s;}
-                
+
         .h2 {text-align: left;}
 
         ul.main3__list {
@@ -116,11 +116,6 @@ padding-top: 60px;}
         
         &__fotka {max-width: 100%;}
 
-        &__dashedfix {height: 2px; width: 50px; 
-            border: 1px solid $zelena;
-            margin-left: 0px;
-                        
-        }
 
         &__dashed {height: 2px; width: 50px; 
             border: 1px solid $zelena;
@@ -178,7 +173,12 @@ padding-top: 60px;}
             
             &__fotka {max-width: 100%;}
 
-            
+            &__dashedfix {height: 2px; width: 50px; 
+                border: 1px solid $zelena;
+                margin-left: 0px;
+                            
+            }
+    
     
             &__dashed {height: 2px; width: 50px; 
                 border: 1px solid $zelena;
@@ -471,6 +471,7 @@ padding-bottom: 50px;}
     padding: 18px;
     width: 100%;
     border-bottom: 1px solid $zelena;
+    outline: none;
     text-align: left;
     outline: none;
     font-size: 15px;
