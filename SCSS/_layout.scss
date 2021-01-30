@@ -65,8 +65,8 @@ padding-top: 60px;}
     
     &__fotka {max-width: 100%; padding-top: 30px;}
 
-    &__formular {max-width: 100%;
-    max-height: 100%;}
+    &__formular {max-width: 900px;
+     }
     
        
         @media screen and (max-width: 600px){
@@ -199,7 +199,7 @@ padding-top: 60px;}
 
     &__h4 {padding: 60px 30px 0px 30px;}
 
-    &__video {max-width: 80%;}
+    &__video {max-width: 900px;}
 
     @media screen and (max-width: 600px)
     {
@@ -456,7 +456,7 @@ padding-bottom: 50px;}
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    border: none;
+    border-bottom: 1px solid $zelena;
     text-align: left;
     outline: none;
     font-size: 15px;
