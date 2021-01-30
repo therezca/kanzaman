@@ -200,7 +200,8 @@ padding-top: 60px;}
 
     &__h4 {padding: 60px 30px 0px 30px;}
 
-    &__video {max-width: 900px;}
+    &__video {max-width: 900px;
+    max-height: 600px;}
 
     @media screen and (max-width: 600px)
     {
