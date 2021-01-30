@@ -349,6 +349,7 @@ h4 {
 
 .main2__formular {
   max-width: 900px;
+  max-height: 1500px;
 }
 
 @media screen and (max-width: 600px) {
