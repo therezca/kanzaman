@@ -75,7 +75,9 @@ padding-top: 60px;}
             &__grid {grid-template-columns: 1fr;
             }}
             
-        
+            &__formular {max-width: 100%;
+
+            }
         &__buttonkolem {padding: 60px 15px;
             text-align: center;}
     
@@ -201,12 +203,12 @@ padding-top: 60px;}
 
     &__h4 {padding: 60px 30px 0px 30px;}
 
-    &__video {max-width: 900px;
-    max-height: 600px;}
+   
 
     @media screen and (max-width: 600px)
     {
     &__perex {padding: 0px 20px;}
+    &__video {max-width: 100%;}
     }
 
     @media screen and (min-width:601px) and (max-width: 1000px) {
