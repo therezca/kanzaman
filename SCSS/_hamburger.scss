@@ -14,7 +14,7 @@ left: -9999px;
 
 
 
-.header__item {border-bottom: 1px solid $seda; padding: 15px; text-align: center;
+.header__item {border-bottom: 1px solid $zelena; padding: 15px; text-align: center;
 }
 
 .header__link {display: block;
@@ -56,9 +56,9 @@ outline: 0px;
 .header__kontejner {display: block; position: relative;
 }
 
-.button {border: 0px;}
+.button {border: 0px; background-color: transparent;}
 
-
+.header {background-color: $menu;}
 
 @media screen and (min-width: 800px) {
 
