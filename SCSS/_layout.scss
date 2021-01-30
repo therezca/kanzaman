@@ -119,7 +119,13 @@ padding-top: 60px;}
             @media screen and (max-width: 600px){
                 &__grid {grid-template-columns: 1fr;
                 }}
-                
+
+                &__item {text-align: center;}
+
+                &__dashed {
+                    margin-left: auto;             
+                }
+                .h2 {text-align: center;}
             
             &__buttonkolem {padding: 60px 15px;
                 text-align: center;}
