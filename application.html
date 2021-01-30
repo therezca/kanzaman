@@ -1,55 +1,8 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }}</title>
-
-
-	<link rel="stylesheet" href="/css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@800&family=Noto+Sans:wght@700&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet"> 
-    
-    <script src="https://kit.fontawesome.com/7acbd2a12b.js" crossorigin="anonymous"></script>
-
-</head>
-
-<body>
-<!-- HEADER -->
-<header class="header">
-    
-    <div class="header__kontejner">
-        
-
-    <a href="/" class="header__logolink" ><img class="header__logo" src="/soubor/logofestivalw-w.png" alt="Logo"></a>
-
-    
-    <label for="menu-checkbox" class="menu__toggler">☰</label>
-    <nav class="header__nav">
-
-        <input type="checkbox" class="menu__checkbox" id="menu-checkbox">
-	
-		<ul class="header__list">
-
-    <li class="header__item"> <a href="/artists/" class="header__link">Artists</a></li>
-    <li class="header__item"><a href="/program/" class="header__link" >Program</a></li>
-    <li class="header__item"><a href="/shows/" class="header__link" >Shows</a></li>
-    <li class="header__item"><a href="/faq/" class="header__link " >FAQ</a></li>
-    <li class="header__item"><a href="/application/" role="button" class="header__button--primary button">Application</a></li>
-    </ul>
-
-        </div>
-    </nav>
-    
-</div>
-</header>
-
-
-
-<main class="obal">
+---
+layout: layouts/sablona.njk
+title: Application
+menu: application
+---
 
  
 
@@ -61,7 +14,7 @@
               <div class="ornament"> <img class="ornament" src="/soubor/ornamentdown.png" alt="Ornament">
               </div>
                 <p class="row__perex"> 
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0StZ5_ILN8OGHKOkOloh3D2R_yoWYy2QRF1ktAmqtKrzkTQ/viewform?embedded=true" width="640" height="670" frameborder="0" marginheight="0" marginwidth="0">Načítání…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0StZ5_ILN8OGHKOkOloh3D2R_yoWYy2QRF1ktAmqtKrzkTQ/viewform?embedded=true" max-width="100%" height="670" frameborder="0" marginheight="0" marginwidth="0">Načítání…</iframe>
                 </p></div>
                 
         </section>
@@ -76,78 +29,3 @@
  
 
 
-
-
-</main>
-
-    
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-
-
-<script>
-    //Get the button
-    var mybutton = document.getElementById("myBtn");
-    
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-    
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-    
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    </script>
-
-
-</body>
-
-<footer class="footer">
-
-    <section class="sponzori">
-        <div class="sponzori__row">
-            
-            <h2 class="sponzori__h2>"><span style="color: white;">Get in touch with us!</span></h2>
-            <div class="line"><hr class="dashed2"/></div>
-            <section class="sponzori__grid">
-                <div class="sponzori__social">
-
-                <div class="sponzori__ikona"><a href="#"><i class="fab fa-instagram fa-3x"></i></a></div>
-            
-
-                </div>
-
-                <div class="sponzori__social">
-                <div class="sponzori__ikona"><a href="#"><i class="fab fa-youtube fa-3x"></i></a></div>
-
-
-                </div>
-
-
-                <div class="sponzori__social">
-                    <div class="sponzori__ikona"><a href="#"><i class="fab fa-facebook-square fa-3x"></i></a></div>
-                 </div>
-
-            </section>
-        </div>
-    </section>
-
- 
-
-    <div class="copyright">
-        <p class="copyright__perex">Copyright 
-            © 2021, Kan Zaman team / <a class="copyright__link" href="www.badriyahbellydance.com">Badriyah</a>
-             & <a class="copyright__link" href="www.hathordancestudio.com.au">Jrisi</a> & <a class="copyright__link" href="www.sheylaoriental.com">Sheyla</a></p>
-    </div>
-
-</footer>
-
-</html>
