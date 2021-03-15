@@ -5,6 +5,8 @@
     
 }
 
+.perex1 {text-align: center; padding: 30px 50px; max-width: 800px;}
+
 .main { background-color: $menu;
 
 &__headline {text-align: center;
@@ -345,7 +347,7 @@ padding-top: 60px;}
     &__h2 {text-align: center;}
 
     &__perex {text-align: center; padding: 30px 50px;}
-    &__perex1 {text-align: center; padding: 30px 50px; max-width: 800px;}
+    
 
     @media screen and (max-width: 600px){
         &__border {margin: 50px 20px;}
